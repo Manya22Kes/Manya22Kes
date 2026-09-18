@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Manya Keserwani Header" />
+  <img src="./header.png" width="100%" alt="Manya Keserwani Banner" />
 </div>
 
 <div align="center">
