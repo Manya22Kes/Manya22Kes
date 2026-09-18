@@ -35,7 +35,7 @@ High-performance backend systems, real-time streaming architectures, AI/ML-drive
 - **OOPS (Object-Oriented Programming):** SOLID principles, modular service encapsulation, clean API contracts, and model-agnostic abstraction layers.
 - **DBMS & Data Persistence:** Relational schema design (**PostgreSQL**), vector embeddings & similarity search (**`pgvector`**), document stores (**MongoDB**), and distributed caching/message queues (**Redis**).
 - **AI / ML & Computer Vision:** Custom deep learning architectures (**YOLOv8**), transfer learning, model evaluation metrics, and multi-modal LLM integration.
-- **Cloud Computing & DevOps:** Containerized microservices (**Docker, Docker Compose**), **Nginx** reverse proxies, cloud infrastructure (**AWS, GCP, Railway, Render, Vercel**), and **CI/CD via GitHub Actions**.
+- **Cloud Computing & DevOps:** Containerized microservices (**Docker, Docker Compose**), **Nginx** reverse proxies, cloud infrastructure (**AWS, GCP, Railway, Render, Vercel, Netlify**), and **CI/CD via GitHub Actions**.
 - **Data Analytics:** Real-time spatial analytics, intrusion dwell-time metrics, confidence score distributions, and temporal trend tracking.
 
 🌱 **I'm currently exploring:**  
@@ -173,6 +173,7 @@ I enjoy turning *"it works"* into *"it works with sub-second latency and mathema
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
