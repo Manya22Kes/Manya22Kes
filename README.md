@@ -19,39 +19,21 @@
 
 ---
 
-# 💫 About Me
+### 💫 About Me
 
-👋 Hey there! I'm **Manya** — a Full-Stack & AI/ML Engineer passionate about architecting scalable microservices, low-latency real-time pipelines, and production-grade computer vision systems.
+> ### 👋 Full-Stack & AI/ML Engineer crafting low-latency real-time pipelines, computer vision systems, and interactive 3D web experiences.
 
-🔭 **I'm currently working on:**  
-**[VIGILANT](#-flagship-project-vigilant--autonomous-real-time-surveillance--alert-system)** — an enterprise-grade, real-time AI video surveillance and alert system that performs restricted-zone monitoring using a custom-trained **YOLOv8** model.
-
-🤝 **I'm looking to collaborate on:**  
-High-performance backend systems, real-time streaming architectures, AI/ML-driven developer tooling, and innovative open-source projects.
-
-🧠 **Engineering Focus & Core Concepts:**  
-- **Real-Time Systems & WebSockets:** Low-latency event streaming, bi-directional client-server synchronization, and live telemetry feeds.
-- **DAA (Design & Analysis of Algorithms):** Algorithmic complexity, Point-in-Polygon geometric intersection, sliding-window temporal tracking, and rate-limiting / throttling algorithms.
-- **OOPS (Object-Oriented Programming):** SOLID principles, modular service encapsulation, clean API contracts, and model-agnostic abstraction layers.
-- **DBMS & Data Persistence:** Relational schema design (**PostgreSQL**), vector embeddings & similarity search (**`pgvector`**), document stores (**MongoDB**), and distributed caching/message queues (**Redis**).
-- **AI / ML & Computer Vision:** Custom deep learning architectures (**YOLOv8**), transfer learning, model evaluation metrics, and multi-modal LLM integration.
-- **Cloud Computing & DevOps:** Containerized microservices (**Docker, Docker Compose**), **Nginx** reverse proxies, cloud infrastructure (**AWS, GCP, Railway, Render, Vercel, Netlify**), and **CI/CD via GitHub Actions**.
-- **Data Analytics:** Real-time spatial analytics, intrusion dwell-time metrics, confidence score distributions, and temporal trend tracking.
-
-🌱 **I'm currently exploring:**  
-Retrieval-Augmented Generation (RAG), Agentic AI Workflows & Multi-Agent Orchestration, Vector Search Optimization, and Fine-Tuning Open-Source LLMs.
-
-💬 **Ask me about:**  
-Real-time pipelines, **YOLOv8** computer vision, Python/FastAPI microservices, Node.js/Express, React/TypeScript, WebSockets, and database architecture.
-
-⚡ **Fun fact:**  
-I enjoy turning *"it works"* into interactive 3D visual experiences backed by sub-second latency and mathematical reliability.
+- 🔭 **Building:** **[VIGILANT](#-flagship-project-vigilant)** — Real-time AI surveillance engine with custom **YOLOv8 (91.44% precision)**.
+- ⚡ **Core Specialties:** **Real-Time WebSockets**, **Microservices (FastAPI + Node.js)**, **3D Web (React Three Fiber)** & **System Design**.
+- 🧠 **CS Foundations:** Strong mastery of **DAA**, **OOPS**, **DBMS**, and algorithmic problem-solving (**200+ on LeetCode**).
+- 🌱 **Currently Exploring:** **RAG architectures**, **Agentic AI workflows**, and **open-source LLM fine-tuning**.
+- 💬 **Ask Me About:** Real-time inference pipelines, **YOLOv8** computer vision, microservice architecture, and 3D creative web.
 
 ---
 
-# 🛡️ Flagship Project: VIGILANT — Autonomous Real-Time Surveillance & Alert System
+### 🛡️ Flagship Project: VIGILANT
 
-> **An AI-based real-time video surveillance and restricted-zone monitoring engine powered by custom-trained YOLOv8 and event-driven microservices.**
+> **Autonomous real-time video surveillance and restricted-zone monitoring engine powered by custom-trained YOLOv8 and event-driven microservices.**
 
 <div align="center">
 
@@ -64,63 +46,27 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 
 </div>
 
-### 🔑 Key Architectural & Engineering Highlights:
-
-1. **Decoupled 3-Service Microservice Architecture:**  
-   Architected a three-tier full-stack system consisting of a **Python/FastAPI ML microservice**, a **Node.js/Express backend**, and a **React/TypeScript frontend**. Cleanly isolated the trained YOLOv8 model behind a lightweight, high-performance API so ML inference workloads and product layers build, scale, and deploy independently.
-
-2. **End-to-End Real-Time Pipeline & WebSockets (91.44% Precision):**  
-   Engineered a seamless sub-second detection pipeline:  
-   $$\text{Camera Capture} \longrightarrow \text{Model Inference} \longrightarrow \text{Zone-Containment Verification} \longrightarrow \text{Severity Scoring} \longrightarrow \text{Instant WebSocket Broadcast}$$  
-   Integrated a custom-trained **YOLOv8** model that achieved **91.44% precision** on held-out test data for restricted-zone detection.
-
-3. **Interactive, Resolution-Independent Polygon Zone Editor:**  
-   Designed a dynamic vector boundary editor where users click to place vertices and drag to reposition zone boundaries directly over a live video feed. Boundary coordinates are stored as **normalized coordinates** ($x, y \in [0, 1]$) rather than fixed pixel dimensions — eliminating the brittle hardcoded-rectangle limitation and ensuring precision across any resolution or display aspect ratio.
-
-4. **Dwell-Time-Aware Severity & Cooldown Throttling Algorithm:**  
-   Designed a temporal scoring algorithm that evaluates threat severity by model detection confidence, live occupancy count, and continuous cross-frame dwell duration in the restricted area. Incorporated sliding-window cooldown throttling to prevent duplicate alerts and notification storms.
-
-5. **Interactive 3D Landing Experience & Hardened Security:**  
-   Built an engaging 3D landing environment with **React Three Fiber (Three.js)**, paired with **JWT and bcrypt** authentication protecting configuration endpoints and monitoring controls — combining real-time systems, 3D graphics, and security fundamentals in one project.
+- 🏗️ **Decoupled 3-Service Architecture:** Python/FastAPI ML microservice isolated behind a high-throughput API from Node.js/Express backend and React/TypeScript frontend.
+- ⚡ **Sub-Second Real-Time Pipeline & WebSockets:** Instant flow from camera capture → YOLOv8 inference → spatial zone containment check → WebSocket alert broadcast (**91.44% precision** on test data).
+- 📐 **Resolution-Independent Polygon Zone Editor:** Vector boundary canvas with normalized coordinates ($x, y \in [0, 1]$) replacing rigid rectangle boxes across any display resolution.
+- ⏱️ **Dwell-Time Severity & Cooldown Throttling Algorithm:** Multi-frame temporal tracking scoring threat by occupancy density and continuous dwell duration, with duplicate alert suppression.
+- 🌐 **Interactive 3D Visuals & Security:** Immersive **React Three Fiber (Three.js)** 3D landing environment secured with **JWT & bcrypt** authentication.
 
 ---
 
-# 🚀 Other Featured Projects
+### 🚀 Other Featured Projects
 
-<details open>
-<summary><b>🤖 RepoPilot AI — AI-Powered GitHub Automation Agent</b></summary>
-<br>
-
-- Full-stack AI automation platform leveraging the **GitHub Apps API** to auto-triage issues, summarize pull requests, and detect duplicate tickets via semantic vector search (**PostgreSQL + `pgvector`**).
-- Designed a model-agnostic LLM abstraction layer (**Gemini + OpenAI**) with automatic failover and rule-based fallback.
-- Architected an asynchronous job-processing queue (**Node.js, Express, BullMQ, Redis**) to decouple webhook ingestion from AI processing with idempotency guarantees.
-- Containerized with **Docker Compose** and deployed on **Railway**.
-</details>
-
-<details open>
-<summary><b>🔍 Prism — AI-Powered Misinformation & Credibility Analyzer</b></summary>
-<br>
-
-- Multi-modal AI credibility platform ingesting **7 content formats** (text, URLs, PDFs, DOCX, PPTX, images, audio), leveraging the **Gemini API** for real-time fact-checking.
-- Built a dual-layer OCR and speech-to-text pipeline (**Google Cloud Vision API, Tesseract.js fallback, Google Cloud Speech-to-Text**) for robust document and audio extraction.
-- Containerized with **Docker Compose** and an **Nginx** reverse proxy; features an interactive **Three.js / React Three Fiber** 3D interface.
-</details>
-
-<details>
-<summary><b>🔐 Authify — Production-Grade Authentication Engine</b></summary>
-<br>
-
-- End-to-end authentication platform built with **React + Vite, Context API, Node.js/Express, and MongoDB**.
-- Implemented **JWT refresh-token rotation**, Axios interceptor request queuing, role-based access control (RBAC), and Google OAuth integration.
-</details>
+- 🤖 **RepoPilot AI:** GitHub automation agent with semantic duplicate detection (**pgvector**), multi-LLM failover (**Gemini + OpenAI**), and async queue processing (**BullMQ + Redis**).
+- 🔍 **Prism:** Multi-modal AI credibility analyzer ingesting 7 content formats with dual-layer OCR, speech-to-text, and interactive **Three.js 3D** UI.
+- 🔐 **Authify:** Production-grade auth system with **JWT refresh-token rotation**, Axios interceptor queuing, and role-based access control (RBAC).
 
 ---
 
-# 💻 Tech Stack & Tooling
+### 💻 Tech Stack & Tooling
 
 <div align="center">
 
-### 🗣️ Languages
+#### 🗣️ Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -128,7 +74,7 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-### 🤖 AI, Machine Learning & Computer Vision
+#### 🤖 AI, Machine Learning & Computer Vision
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -138,7 +84,7 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
-### ⚙️ Backend, Real-Time & Systems
+#### ⚙️ Backend, Real-Time & Systems
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -148,7 +94,7 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=postman&logoColor=white)
 
-### 🎨 Frontend, 3D & Creative Tech
+#### 🎨 Frontend, 3D & Creative Tech
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)
@@ -158,13 +104,13 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🗄️ Databases & Storage
+#### 🗄️ Databases & Storage
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-### ☁️ Cloud, DevOps & Tools
+#### ☁️ Cloud, DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
