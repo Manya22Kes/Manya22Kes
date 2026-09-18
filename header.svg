@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070c18" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: 1.5px;
+      fill: url(#accentGradient);
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 2px;
+      fill: #94a3b8;
+      text-transform: uppercase;
+    }
+    .tagline {
+      font-family: 'Fira Code', monospace, Consolas, sans-serif;
+      font-size: 13px;
+      fill: #38bdf8;
+      opacity: 0.85;
+    }
+    .badge-rect {
+      fill: rgba(56, 189, 248, 0.08);
+      stroke: rgba(56, 189, 248, 0.25);
+      stroke-width: 1;
+      rx: 6;
+    }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="900" height="200" rx="14" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Decorative Wave Lines -->
+  <path d="M 0 160 Q 225 110, 450 150 T 900 130 L 900 200 L 0 200 Z" fill="#38bdf8" opacity="0.04" />
+  <path d="M 0 175 Q 300 130, 600 170 T 900 160 L 900 200 L 0 200 Z" fill="#818cf8" opacity="0.06" />
+  
+  <!-- Subtle glowing accent line on top border -->
+  <line x1="120" y1="1" x2="780" y2="1" stroke="url(#accentGradient)" stroke-width="2.5" opacity="0.8" />
+
+  <!-- Window controls -->
+  <circle cx="28" cy="24" r="5" fill="#ef4444" opacity="0.8" />
+  <circle cx="44" cy="24" r="5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="60" cy="24" r="5" fill="#10b981" opacity="0.8" />
+
+  <!-- Main Name Title -->
+  <text x="450" y="85" text-anchor="middle" class="title" filter="url(#glow)">MANYA KESERWANI</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="122" text-anchor="middle" class="subtitle">Full-Stack &amp; AI/ML Engineer  •  Real-Time Systems</text>
+
+  <!-- Feature Tags / Bottom Bar -->
+  <g transform="translate(450, 160)">
+    <text x="0" y="0" text-anchor="middle" class="tagline">✦ Computer Vision (YOLOv8) ✦ Microservices &amp; WebSockets ✦ 3D Web &amp; Algorithms ✦</text>
+  </g>
+</svg>

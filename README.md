@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24&height=180&section=header&text=Manya%20Keserwani&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%26%20AI%2FML%20Engineer%20%7C%20Real-Time%20Systems%20%7C%20Computer%20Vision&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="./header.svg" width="100%" alt="Manya Keserwani Header" />
 </div>
 
 <div align="center">
@@ -39,13 +39,13 @@ High-performance backend systems, real-time streaming architectures, AI/ML-drive
 - **Data Analytics:** Real-time spatial analytics, intrusion dwell-time metrics, confidence score distributions, and temporal trend tracking.
 
 🌱 **I'm currently exploring:**  
-Distributed systems design, GPU-accelerated inference optimization, and cloud-native Kubernetes orchestration.
+Retrieval-Augmented Generation (RAG), Agentic AI Workflows & Multi-Agent Orchestration, Vector Search Optimization, and Fine-Tuning Open-Source LLMs.
 
 💬 **Ask me about:**  
 Real-time pipelines, **YOLOv8** computer vision, Python/FastAPI microservices, Node.js/Express, React/TypeScript, WebSockets, and database architecture.
 
 ⚡ **Fun fact:**  
-I enjoy turning *"it works"* into *"it works with sub-second latency and mathematical reliability."*
+I enjoy turning *"it works"* into interactive 3D visual experiences backed by sub-second latency and mathematical reliability.
 
 ---
 
@@ -186,13 +186,12 @@ I enjoy turning *"it works"* into *"it works with sub-second latency and mathema
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Manya22Kes&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175" />
+<img src="https://github-readme-stats.shion.dev/api?username=Manya22Kes&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175" />
 <img src="https://streak-stats.demolab.com/?user=Manya22Kes&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="175" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manya22Kes&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
-<img src="https://github-profile-trophy.vercel.app/?username=Manya22Kes&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" height="160" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Manya22Kes&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
 
 <br/><br/>
 
@@ -207,6 +206,6 @@ I enjoy turning *"it works"* into *"it works with sub-second latency and mathema
 
 [![Visitors](https://komarev.com/ghpvc/?username=Manya22Kes&label=Profile%20Views&color=2563EB&style=flat-square)](https://github.com/Manya22Kes)
 
-*“Turning 'it works' into 'it works with sub-second latency and mathematical reliability.'”*
+*“Turning 'it works' into interactive 3D experiences with sub-second latency and mathematical reliability.”*
 
 </div>
