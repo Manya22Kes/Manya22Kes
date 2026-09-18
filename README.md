@@ -193,10 +193,15 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Manya22Kes&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
 
-<br/><br/>
+</div>
 
-### ✍️ Random Dev Quote
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+---
+
+<div align="center">
+
+### 💡 Favorite Dev Quote
+> *“Make it work, make it right, make it fast.”*  
+> — **Kent Beck**
 
 </div>
 
