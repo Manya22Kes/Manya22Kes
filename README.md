@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Building+Real-Time+AI+%26+Full-Stack+Platforms;Architecting+Microservices+%7C+FastAPI+%2B+Node.js+%2B+React;Computer+Vision+%7C+Custom+YOLOv8+(91.44%25+Precision);Real-Time+Pipelines+with+WebSockets+%26+Event+Streaming;Passionate+about+DAA%2C+OOPS%2C+DBMS+%26+System+Design;200%2B+DSA+Problems+Solved+on+LeetCode" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=C084FC&center=true&vCenter=true&width=700&lines=Building+Real-Time+AI+%26+Full-Stack+Platforms;Architecting+Microservices+%7C+FastAPI+%2B+Node.js+%2B+React;Computer+Vision+%7C+Custom+YOLOv8+(91.44%25+Precision);Real-Time+Pipelines+with+WebSockets+%26+Event+Streaming;Passionate+about+DAA%2C+OOPS%2C+DBMS+%26+System+Design;200%2B+DSA+Problems+Solved+on+LeetCode" alt="Typing SVG" />
   </a>
 </div>
 
@@ -182,34 +182,15 @@ I enjoy turning *"it works"* into interactive 3D visual experiences backed by su
 
 ---
 
-# 📊 GitHub Analytics & Live Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.shion.dev/api?username=Manya22Kes&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="175" />
-<img src="https://streak-stats.demolab.com/?user=Manya22Kes&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="175" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Manya22Kes&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
-
-</div>
-
----
-
 <div align="center">
 
 ### 💡 Favorite Dev Quote
 > *“Make it work, make it right, make it fast.”*  
 > — **Kent Beck**
 
-</div>
+<br/>
 
----
-
-<div align="center">
-
-[![Visitors](https://komarev.com/ghpvc/?username=Manya22Kes&label=Profile%20Views&color=2563EB&style=flat-square)](https://github.com/Manya22Kes)
+[![Visitors](https://komarev.com/ghpvc/?username=Manya22Kes&label=Profile%20Views&color=EC4899&style=flat-square)](https://github.com/Manya22Kes)
 
 *“Turning 'it works' into interactive 3D experiences with sub-second latency and mathematical reliability.”*
 
